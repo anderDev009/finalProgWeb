@@ -10,11 +10,11 @@ import Contacto from "../domain/entities/Contacto";
 const entities = [Author, Title,Contacto,Biography];
 const db_mysql: DataSourceOptions = {
     type: "mysql",
-    host: "localhost",
+    host: "bk87inhnl6scorepdsae-mysql.services.clever-cloud.com",
     port: 3306,
-    username: "root",
-    password: "mysql",
-    database: "proyecto_final_prog_web",
+    username: "ur6pygbbpvvpkkun",
+    password: "IpbPxIJgk6eMHOENuoQz",
+    database: "bk87inhnl6scorepdsae",
     entities: entities
 }
 

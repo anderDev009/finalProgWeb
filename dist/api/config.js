@@ -11,11 +11,11 @@ const Contacto_1 = __importDefault(require("../domain/entities/Contacto"));
 const entities = [Author_1.default, Title_1.default, Contacto_1.default, Biography_1.default];
 const db_mysql = {
     type: "mysql",
-    host: "localhost",
+    host: "bk87inhnl6scorepdsae-mysql.services.clever-cloud.com",
     port: 3306,
-    username: "root",
-    password: "mysql",
-    database: "proyecto_final_prog_web",
+    username: "ur6pygbbpvvpkkun",
+    password: "IpbPxIJgk6eMHOENuoQz",
+    database: "bk87inhnl6scorepdsae",
     entities: entities
 };
 const config = {

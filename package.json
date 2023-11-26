@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "webpack -p",
     "dev": "npx ts-node ./src/api/app.ts",
-    "start": "node dist/api/app.js"
+    "start": "node dist/api/app.js",
+    "test": "karma start"
   },
   "keywords": [],
   "author": "",
@@ -18,14 +19,23 @@
     "mysql": "^2.18.1",
     "nodemon": "^3.0.1",
     "npx": "^10.2.2",
-    "tsc": "^2.0.4",
-    "typeorm": "^0.3.17",
-    "typescript": "^5.3.2"
+    "typeorm": "^0.3.17"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
+    "@types/jasmine": "^5.1.4",
     "@types/morgan": "^1.9.9",
-    "@types/uuid": "^9.0.7"
+    "@types/uuid": "^9.0.7",
+    "jasmine-core": "^5.1.1",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-webpack": "^5.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
