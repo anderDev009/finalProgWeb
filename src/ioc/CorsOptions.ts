@@ -1,6 +1,6 @@
 class CorsOptionsDependency {
     static CorsOptions = {
-        origin: 'https://nextjs-finalprogweb.vercel.app/', // Sustituye variables
+        origin: 'https://nextjs-finalprogweb.vercel.app', // Sustituye variables
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
         credentials: true,
         optionsSuccessStatus: 200,
